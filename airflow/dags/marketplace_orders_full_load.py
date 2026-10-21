@@ -1,3 +1,6 @@
+    dag_id="marketplace_orders_full_load",
+    schedule=None,
+    start_date=datetime(2026, 1, 1),
     catchup=False,
     max_active_runs=1,
     tags=["marketplace", "etl", "full-load"],
