@@ -1,4 +1,5 @@
-|
+|nsure_publish_pool()
+
 
 @dag(
     dag_id="marketplace_orders_full_load",
