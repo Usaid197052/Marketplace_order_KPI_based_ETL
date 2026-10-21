@@ -1,3 +1,4 @@
+    )
     publish = spark_job(
         task_id="publish",
         script="publish.py",
