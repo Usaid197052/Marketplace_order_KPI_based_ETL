@@ -1,3 +1,4 @@
+    catchup=False,
     max_active_runs=1,
     tags=["marketplace", "etl", "full-load"],
 )
