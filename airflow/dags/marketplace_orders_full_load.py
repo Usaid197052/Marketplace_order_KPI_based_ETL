@@ -1,3 +1,4 @@
+    tags=["marketplace", "etl", "full-load"],
 )
 def marketplace_orders_full_load():
     extract = spark_job(
