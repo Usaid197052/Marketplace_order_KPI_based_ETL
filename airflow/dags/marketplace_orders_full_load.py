@@ -1,3 +1,4 @@
+    max_active_runs=1,
     tags=["marketplace", "etl", "full-load"],
 )
 def marketplace_orders_full_load():
