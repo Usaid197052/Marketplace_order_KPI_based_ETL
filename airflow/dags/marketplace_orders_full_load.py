@@ -1,3 +1,4 @@
+@dag(
     dag_id="marketplace_orders_full_load",
     schedule=None,
     start_date=datetime(2026, 1, 1),
