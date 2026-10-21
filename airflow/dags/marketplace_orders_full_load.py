@@ -1,4 +1,5 @@
-|
+|ys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from airflow.sdk import dag
 
 from marketplace_spark import ensure_publish_pool, spark_job
