@@ -1,4 +1,5 @@
-|nsure_publish_pool()
+|
+ensure_publish_pool()
 
 
 @dag(
