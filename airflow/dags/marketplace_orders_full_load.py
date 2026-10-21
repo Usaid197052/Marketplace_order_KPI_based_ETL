@@ -1,3 +1,4 @@
+        script="full_load.py",
         application_args=["--run-id", "{{ run_id }}"],
         name="marketplace_orders_full_load",
     )
