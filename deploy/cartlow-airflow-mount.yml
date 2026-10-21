@@ -1,0 +1,10 @@
+services:
+  airflow:
+    environment:
+      PYTHONPATH: /opt/airflow/etl:/opt/airflow/pyspark_project:/opt/airflow/marketplace_orders
+      CLICKHOUSE_HOST: host.docker.internal
+    volumes:
+      - ../Marketplace_orders:/opt/airflow/marketplace_orders
+      - ../Marketplace_orders/airflow/dags:/opt/airflow/dags/marketplace_orders
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

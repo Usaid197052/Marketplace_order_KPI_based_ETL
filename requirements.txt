@@ -1,0 +1,6 @@
+pymysql
+clickhouse-connect
+python-dotenv
+pyspark
+
+pytest
