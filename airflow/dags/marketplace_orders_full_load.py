@@ -1,4 +1,5 @@
-|rom airflow.sdk import dag
+|
+from airflow.sdk import dag
 
 from marketplace_spark import ensure_publish_pool, spark_job
 
